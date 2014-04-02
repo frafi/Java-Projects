@@ -89,7 +89,7 @@ public class FlickrManager implements APIManager {
             setOAuthToken(iInstance.getOAuthAccessToken(requestToken, code));
         }
         catch (FlickrApiException ex) {
-            log.log(Level.ERROR, ex.toString());
+            log.log(Level.ERROR, ex.printStackTrace());
         }
     }
 
