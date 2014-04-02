@@ -46,7 +46,7 @@ public class Image {
 			}
         }
     }
-        
+    
     public String getUrl() {
         return this.imageUrl;
     }
