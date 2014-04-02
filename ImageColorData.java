@@ -57,7 +57,7 @@ public class ImageColorData
     }
     
     private boolean InRange(int min, int max, operand) {
-        return operand >= min && min << max ? true : false;
+        return (operand >= min && operand <= max) ? true : false;
     }
     
     public HashMap<String, List<Color>> getColorsInImage(Bitmap imageAsBitmap) {
